@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "mcp__wcgw__Initialize",
+      "mcp__wcgw__ReadFiles",
+      "mcp__wcgw__BashCommand",
+      "mcp__wcgw__FileWriteOrEdit",
+      "Bash(FILTER_BRANCH_SQUELCH_WARNING=1 git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch seedfyapp-firebase-adminsdk-fbsvc-621dfe20ea.json' --prune-empty --tag-name-filter cat -- --all)",
+      "Bash(find:*)",
+      "Bash(flutter:*)",
+      "Bash(git stash:*)",
+      "Bash(git rev-list:*)",
+      "Read(/Users/gabrielmaia/.claude/agents/core/**)",
+      "Read(/Users/gabrielmaia/.claude/agents/core/**)",
+      "mcp__exa__deep_researcher_start",
+      "mcp__exa__deep_researcher_check",
+      "Bash(firebase --version)",
+      "mcp__ref__ref_search_documentation",
+      "mcp__ref__ref_read_url",
+      "Bash(firebase init:*)",
+      "Bash(firebase:*)",
+      "Read(/Users/gabrielmaia/Documents/projects/seedfy-web/**)",
+      "Read(/Users/gabrielmaia/Documents/projects/seedfy-web/**)",
+      "Read(/Users/gabrielmaia/Documents/projects/seedfy-web/**)",
+      "Read(/Users/gabrielmaia/Documents/projects/seedfy-web/src/**)",
+      "Bash(export PATH=\"$PATH\":\"$HOME/.pub-cache/bin\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
